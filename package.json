@@ -4,7 +4,7 @@
   "description": "COMP426 A3",
   "main": "./lib/roll.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./lib/roll.js/roll(6,2,10)"
   },
   "roll-dice": "./bin/cli.js",
   "repository": {
