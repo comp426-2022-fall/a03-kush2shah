@@ -1,0 +1,23 @@
+{
+  "name": "node-dice",
+  "version": "1.0.0",
+  "description": "COMP426 A3",
+  "main": "./lib/roll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "roll-dice": "./bin/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a03-kush2shah.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a03-kush2shah/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a03-kush2shah#readme",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
+}
