@@ -4,9 +4,11 @@
   "description": "COMP426 A3",
   "main": "./lib/roll.js",
   "scripts": {
-    "test": "./lib/roll.js/roll(6,2,10)"
+    "test": "node .bin/cli.js --sides=6 --dice=2 --rolls=3"
   },
-  "roll-dice": "./bin/cli.js",
+  "bin":{
+    "roll-dice": "./bin/cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a03-kush2shah.git"
@@ -17,6 +19,7 @@
     "url": "https://github.com/comp426-2022-fall/a03-kush2shah/issues"
   },
   "homepage": "https://github.com/comp426-2022-fall/a03-kush2shah#readme",
+  "type": "module",
   "dependencies": {
     "minimist": "^1.2.7"
   }
