@@ -4,7 +4,7 @@
   "description": "COMP426 A3",
   "main": "./lib/roll.js",
   "scripts": {
-    "test": "node .bin/cli.js --sides=6 --dice=2 --rolls=3"
+    "test": "node bin/cli.js --sides=6 --dice=2 --rolls=3"
   },
   "bin":{
     "roll-dice": "./bin/cli.js"
